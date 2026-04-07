@@ -74,6 +74,7 @@ a {
     background: var(--bg-white);
     z-index: 100;
     border-bottom: var(--border-dark);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .logo {
@@ -522,22 +523,22 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: #ffffff;
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 9999;
     mix-blend-mode: difference;
-    transition: width 0.3s ease, height 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
     will-change: transform;
     display: none;
 }
 
 .custom-cursor.hover {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color: var(--accent-neon);
 }
 
