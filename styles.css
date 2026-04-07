@@ -565,11 +565,18 @@ a {
         --space-md: 1.5rem;
     }
 
-    html, body {
+    html,
+    body {
         overflow-x: hidden;
     }
 
-    p, a, h1, h2, h3, h4, span {
+    p,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    span {
         overflow-wrap: break-word;
         word-wrap: break-word;
         hyphens: auto;
@@ -594,16 +601,19 @@ a {
     .nav-links a {
         font-size: 0.85rem;
     }
-    
+
     .logo {
-        font-size: 1.2rem; /* Ensure logo fits on 320px screens */
+        font-size: 1.2rem;
+        /* Ensure logo fits on 320px screens */
     }
 
     .hero {
-        padding-top: 16rem; /* Increased vertical space to clear the tall mobile navbar */
+        padding-top: 36rem;
+        /* Increased vertical space to clear the tall mobile navbar */
     }
-    
-    .hero-layout, .hero-content {
+
+    .hero-layout,
+    .hero-content {
         text-align: center;
         align-items: center;
     }
@@ -639,10 +649,12 @@ a {
     }
 
     /* Centering Motivation part */
-    .letter-header, .contact-info, .letter-body {
+    .letter-header,
+    .contact-info,
+    .letter-body {
         text-align: center;
     }
-    
+
     .letter-header h2 {
         font-size: clamp(2rem, 8vw, 2.5rem);
     }
@@ -687,7 +699,7 @@ a {
     .footer h2 {
         font-size: clamp(2rem, 8vw, 2.5rem);
     }
-    
+
     .footer-bottom {
         flex-direction: column;
         gap: 1.5rem;
